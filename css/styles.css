@@ -1,0 +1,173 @@
+/* HTML Tags */
+body {
+  background-color: #272343 !important;
+}
+
+h1, h2, h3 {
+  font-family: 'Ubuntu Condensed', sans-serif;
+  text-align: center;
+}
+
+h2, h3 {
+  color: #ffd700;
+}
+
+/* img {
+  align-items: center;
+      margin-left: 5px;
+      margin-top: 10px;
+
+      width: 1682px;
+} */
+/* header and NAvbar*/
+.title {
+  font-family: 'Rubik', sans-serif;
+  margin: 40px 40px;
+}
+
+.lhd {
+  color: #ffd700;
+  margin: 30px 30px 50px;
+}
+
+/* Images */
+/* Container holding the image and the text */
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+/* Centered text */
+.main-imgs {
+  width: 100%;
+}
+
+.main-img {
+  margin-top: 30px;
+  background-color: #272343;
+}
+
+.cf {
+  background-color: #272343
+}
+
+.centered {
+  margin-top: 30px;
+  font-family: 'Ubuntu Condensed', sans-serif;
+  font-size: 60px;
+  color: #fff;
+  position: absolute;
+  top: 70%;
+  left: 35%;
+  transform: translate(-50%, -50%);
+}
+
+.navbar-brand {
+  display: none;
+}
+
+.nb {
+  color: #fff;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.toggle {
+  color: #fff;
+}
+
+.nb:hover {
+  color: #ffd700;
+}
+
+.row-one {
+  height: 100px;
+  background-color: #ffd700;
+}
+
+.cnav {
+  min-height: 4rem;
+  background-color: #ffd700;
+}
+
+.top-navbar {
+  background-color: #272343;
+}
+
+.details {
+  color: #fff;
+}
+
+.main-pictures {
+  background-color: #272343;
+}
+
+.link {
+  margin-top: 50px;
+}
+
+.links:hover {
+  color: #fff;
+}
+
+.links {
+  color: #272343;
+  margin: 50px;
+}
+
+/* Id Selectors */
+#about {
+  background-color: #272343
+}
+
+#title {
+  color: #272343;
+}
+
+#btn {
+  color: #fff;
+  background-color: #ffd700;
+  border-color: #ffd700;
+  border-width: thick;
+}
+
+#id {
+  background-color: #272343;
+}
+
+@media (max-width: 1028px) {
+
+  /* img{
+  margin-left: 6px;
+  margin-right: 300px;
+  height: 307px;
+  width: 591px;
+
+} */
+  .main-imgs {
+    width: 100%;
+  }
+
+  .centered {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 30px;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+  }
+
+  .links {
+    color: #272343;
+    margin: 5px;
+    margin-left: 40px;
+  }
+
+  .title {
+    font-family: 'Ubuntu', sans-serif;
+    margin: 40px 10px;
+    font-size: 25px;
+  }
+}
