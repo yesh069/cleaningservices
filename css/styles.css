@@ -115,6 +115,9 @@ h2, h3 {
   color: #272343;
   margin: 50px;
 }
+.mail{
+  padding-left: 582px;
+}
 
 /* Id Selectors */
 #about {
@@ -137,7 +140,9 @@ h2, h3 {
 }
 
 @media (max-width: 1028px) {
-
+ .mail{
+   padding-left: 100px;
+ }
   /* img{
   margin-left: 6px;
   margin-right: 300px;
