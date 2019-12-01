@@ -39,8 +39,13 @@ h2, h3 {
 }
 
 /* Centered text */
+
 .main-imgs {
+  height:auto;
   width: 100%;
+
+  margin: auto;
+
 }
 
 .main-img {
@@ -55,10 +60,10 @@ h2, h3 {
 .centered {
   margin-top: 30px;
   font-family: 'Ubuntu Condensed', sans-serif;
-  font-size: 60px;
+  font-size: 56px;
   color: #fff;
   position: absolute;
-  top: 70%;
+  top: 50%;
   left: 35%;
   transform: translate(-50%, -50%);
 }
@@ -74,7 +79,11 @@ h2, h3 {
 }
 
 .toggle {
+  align-items: right;
   color: #fff;
+}
+.toggle:hover{
+  color: #ffd700;
 }
 
 .nb:hover {
@@ -156,7 +165,7 @@ h2, h3 {
 
   .centered {
     font-family: 'Ubuntu Condensed', sans-serif;
-    font-size: 30px;
+    font-size: 70px;
     color: #fff;
     position: absolute;
     top: 50%;
@@ -173,6 +182,6 @@ h2, h3 {
   .title {
     font-family: 'Ubuntu', sans-serif;
     margin: 40px 10px;
-    font-size: 25px;
+    font-size: 30px;
   }
 }
