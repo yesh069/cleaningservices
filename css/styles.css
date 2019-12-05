@@ -148,7 +148,8 @@ h2, h3 {
   background-color: #272343;
 }
 
-@media only screen (min-device-width: 480px) {
+@media only screen (min-device-width: 780px) {
+  
  .mail{
    padding-left: 100px;
  }
