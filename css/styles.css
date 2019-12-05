@@ -39,13 +39,10 @@ h2, h3 {
 }
 
 /* Centered text */
-
 .main-imgs {
-  height:auto;
+  height: auto;
   width: 100%;
-
   margin: auto;
-
 }
 
 .main-img {
@@ -82,7 +79,8 @@ h2, h3 {
   align-items: right;
   color: #fff;
 }
-.toggle:hover{
+
+.toggle:hover {
   color: #ffd700;
 }
 
@@ -124,7 +122,8 @@ h2, h3 {
   color: #272343;
   margin: 50px;
 }
-.mail{
+
+.mail {
   padding-left: 582px;
 }
 
@@ -148,11 +147,11 @@ h2, h3 {
   background-color: #272343;
 }
 
-@media (min-width: 780px){
-  
- .mail{
-   padding-left: 100px;
- }
+@media (max-width: 1028px) {
+  .mail {
+    padding-left: 100px;
+  }
+
   /* img{
   margin-left: 6px;
   margin-right: 300px;
@@ -166,10 +165,10 @@ h2, h3 {
 
   .centered {
     font-family: 'Ubuntu Condensed', sans-serif;
-    font-size: 70px;
+    font-size: 60px;
     color: #fff;
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 40%;
     transform: translate(-50%, -50%);
   }
