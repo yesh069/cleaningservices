@@ -76,6 +76,8 @@ h2, h3 {
 }
 
 .toggle {
+      margin-left: 98%;
+
   align-items: right;
   color: #fff;
 }
@@ -111,7 +113,7 @@ h2, h3 {
 }
 
 .link {
-  margin-top: 50px;
+  margin-top: 6%;
 }
 
 .links:hover {
