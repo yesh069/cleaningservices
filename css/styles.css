@@ -55,14 +55,14 @@ h2, h3 {
 }
 
 .centered {
-  margin-top: 30px;
-  font-family: 'Ubuntu Condensed', sans-serif;
-  font-size: 56px;
-  color: #fff;
-  position: absolute;
-  top: 50%;
-  left: 35%;
-  transform: translate(-50%, -50%);
+    margin-top: 30px;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 20px;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
 }
 
 .navbar-brand {
@@ -147,7 +147,7 @@ h2, h3 {
   background-color: #272343;
 }
 
-@media (max-width: 1028px) {
+/* @media (max-width: 1028px) {
   .mail {
     padding-left: 100px;
   }
@@ -185,3 +185,4 @@ h2, h3 {
     font-size: 30px;
   }
 }
+ */
